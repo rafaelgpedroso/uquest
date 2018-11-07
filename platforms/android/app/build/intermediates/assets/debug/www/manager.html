@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="msapplication-tap-highlight" content="no">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+	<title>Uquest Manager</title>
+</head>
+<body>
+	<div id="newquestion">
+		<h1>Pregunta</h1>
+		<p><input type="text" name="category" id="category" placeholder="Categoria" value="1"></p>
+		<p><input type="text" name="question" id="question" placeholder="Pregunta"></p>
+		<p><input type="text" name="img" id="img" placeholder="Imagem"></p>
+		<p><input type="text" name="correct" id="correct" placeholder="Respuesta Correcta"></p>
+		<p><input type="text" name="answer1" id="answer1" placeholder="Respuesta 1"></p>
+		<p><input type="text" name="revision1" id="revision1" placeholder="Corrección"></p>
+		<p><input type="text" name="answer2" id="answer2" placeholder="Respuesta 2"></p>
+		<p><input type="text" name="revision2" id="revision2" placeholder="Corrección"></p>
+		<p><input type="text" name="answer3" id="answer3" placeholder="Respuesta 3"></p>
+		<p><input type="text" name="revision3" id="revision3" placeholder="Corrección"></p>
+		<p><input type="text" name="answer4" id="answer4" placeholder="Respuesta 4"></p>
+		<p><input type="text" name="revision4" id="revision4" placeholder="Corrección"></p>
+		<p><button id="savequestion" onclick="saveQuestion()">Salvar</button></p>
+	</div>
+	<div id="user">
+		<h1>Usuário</h1>
+		<p><input type="text" name="name" id="name" placeholder="Nome"></p>
+		<p><input type="text" name="username" id="username" placeholder="Login"></p>
+		<p><input type="password" name="pass" id="pass" placeholder="Senha"></p>
+		<p>Género
+			<select id="gender">
+			  <option value="1">Masculino</option>
+			  <option value="2">Femenino</option>
+			</select>
+		</p>
+		<p><button id="saveuser" onclick="saveUser()">Salvar</button></p>
+	</div>
+
+	<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+	<script type="text/javascript" src="js/manager.js"></script>
+
+</body>
+</html>

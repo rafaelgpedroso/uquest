@@ -1,0 +1,4 @@
+#Tue Oct 30 18:56:11 GMT-04:00 2018
+base.0=C\:\\Users\\Rafael\\Dropbox\\www\\uquest\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
